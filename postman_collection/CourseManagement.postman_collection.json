@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "332df996-a636-420e-9d83-b1dec0340547",
+		"name": "CourseManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/courses",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 321,\r\n    \"name\": \"Js\",\r\n    \"description\": \"Course on Js\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/courses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 321,\r\n    \"name\": \"Js\",\r\n    \"description\": \"Course on Js\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/courses/321",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 321,\r\n    \"name\": \"Ruby on Rails\",\r\n    \"description\": \"Course on Ruby on Rails\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/courses/321",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"321"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/courses/321",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/courses/321",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"321"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/courses/321",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 321,\r\n    \"name\": \"\",\r\n    \"description\": \"Course on Python\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/courses/321",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"321"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/courses/123",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/courses/123",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/courses/123",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/courses/123",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/courses",
+			"request": {
+				"method": "OPTIONS",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
